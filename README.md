@@ -1,7 +1,7 @@
-# ObjectOrientedProgramming-
+# ObjectOrientedProgramming
 Exercise from the course "Programmazione Orientata agli Oggetti" of the University of study of Udine
 
-# Exercixe test- 
+# Exercixe test
 A Region must manage the administration of vaccines to the population for a range
 of various pathologies. For each pathology, there are 1 or more drugs that can be
 used as vaccines. Each vaccination of a person occurs on a certain date; the
