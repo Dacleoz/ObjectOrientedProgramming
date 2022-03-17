@@ -62,8 +62,8 @@ public class RuleImplementation implements Rule {
     /**
      * @require fasciaEtà not null
      * @require tipo di farmaco  not null
-     * in base alla tipologia del farmaco e alla fascia di età della persona viene deciso se
-     * la persona dovrebbe vaccinarsi subito o può aspettare la distanza max per vaccinaizone succesiva
+     * based of the type of medicine and the age range is decided if the person have to get vaccinated
+     * right away or can wait the distance max from the first dose
      */
     public int nextDoseTime(AgeRange ageRange, TypeOfMedicine typeOfMedicine) {
          if (typeOfMedicine.equals(TypeOfMedicine.ADENOVIRUS) && ageRange.equals(AgeRange.GREATER_THAN_18)) {
