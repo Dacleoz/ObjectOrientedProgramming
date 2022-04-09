@@ -17,7 +17,6 @@ public class Person {
         this.age = age;
     }
 
-
     /**
      * @return age range of the person
      */
@@ -35,10 +34,18 @@ public class Person {
         }
     }
 
+    /**
+     *
+     * @return String
+     */
     public String getId() {
         return id;
     }
 
+    /**
+     *
+     * @return int
+     */
     public int getAge() {
         return age;
     }

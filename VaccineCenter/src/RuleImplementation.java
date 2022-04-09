@@ -12,7 +12,10 @@ public class RuleImplementation implements Rule {
     private List<TypeOfMedicine> compatibleMedicine;
     private int coverage;
 
-
+    /**
+     *
+     * @param ruleImplementatioBuilder
+     */
     public RuleImplementation(RuleImplementatioBuilder ruleImplementatioBuilder) {
         this.distanceMin = ruleImplementatioBuilder.distanceMin;
         this.distanceMax = ruleImplementatioBuilder.distanceMax;

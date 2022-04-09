@@ -17,14 +17,26 @@ public class Medicine {
         this.typeOfMedicine = typeOfMedicine;
     }
 
+    /**
+     *
+     * @return String
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     *
+     * @return Rule
+     */
     public Rule getAdministrationRules() {
         return this.administrationRule;
     }
 
+    /**
+     *
+     * @return TypeOfMedicine
+     */
     public TypeOfMedicine getTypeOfMedicine() {
         return typeOfMedicine;
     }

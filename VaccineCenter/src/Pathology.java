@@ -16,6 +16,12 @@ public class Pathology {
     private GravityPathology gravityPathology;
     private Rule rule;
 
+    /**
+     *
+     * @param name
+     * @param listMedicineForPrevention
+     * @param gravityPathology
+     */
     public Pathology(String name, List<Medicine> listMedicineForPrevention, GravityPathology gravityPathology) {
         this.name = name;
         this.listMedicineForPrevention = listMedicineForPrevention;
@@ -23,6 +29,10 @@ public class Pathology {
 
     }
 
+    /**
+     *
+     * @return String
+     */
     public String getName() {
         return name;
     }

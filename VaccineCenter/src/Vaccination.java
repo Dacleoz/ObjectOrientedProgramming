@@ -30,22 +30,42 @@ public class Vaccination {
 
     }
 
+    /**
+     *
+     * @return Person
+     */
     public Person getPerson() {
         return person;
     }
 
+    /**
+     *
+     * @return LocalDateTime
+     */
     public LocalDateTime getDateReservation() {
         return dateReservation;
     }
 
+    /**
+     *
+     * @return Pathology
+     */
     public Pathology getPathology() {
         return patologia;
     }
 
+    /**
+     *
+     * @return Medicine
+     */
     public Medicine getMedicineUsed() {
         return farmacoUsato;
     }
 
+    /**
+     *
+     * @return int
+     */
     public int getDose() {
         return dose;
     }
