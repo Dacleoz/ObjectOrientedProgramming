@@ -17,6 +17,9 @@ public class VaccinatedRegister {
     public void infoVaccination() {
         List<Vaccination> copia = this.vaccinatedRegister;
         Iterator<Vaccination> it = this.vaccinatedRegister.iterator();
+        if(it.next()== null){
+            System.out.print("There is nothing");
+        }
 
         while(it.hasNext()){
             Vaccination vaccination = it.next();

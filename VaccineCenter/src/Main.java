@@ -10,13 +10,13 @@ public class Main {
 
         VaccinationCenter vaccinationCenter = new VaccinationCenter(vaccinatedRegister);
 
-        vaccinationCenter.listVaccinatedPeople();
         Person matteo = new Person("masd56yhsds","Matteo",23);
         List<Medicine> lista = null;
         RuleImplementation.RuleImplementatioBuilder builder= vaccinationCenter.configureRule();
         Rule rule = builder.setMinimunAge(6).setDistanceMin(1).setDistanceMax(5).setDose(2, 18).setCoverage(5).build();
-        Medicine farmaco = factoryMedicine.createMedicine(TypeOfMedicine.ADENOVIRUS,"astrazeneca", rule);
+        Medicine medicine = factoryMedicine.createMedicine(TypeOfMedicine.ADENOVIRUS,"astrazeneca", rule);
         Pathology covid = new Pathology("Covid",lista, GravityPathology.LOW_GRAVITY);
-        vaccinationCenter.coverage(matteo, covid);
+
+
     }
 }
